@@ -16,10 +16,12 @@
         "outDir": "dist",
         "types": [
             "node"
-        ],
+        ]
     },
+    "include": [
+        "generate/**/*"
+    ],
     "exclude": [
         "node_modules"
-    ],
-    "main": "generate/index"
+    ]
 }
